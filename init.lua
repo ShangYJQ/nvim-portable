@@ -1,5 +1,7 @@
 vim.loader.enable()
 
+vim.cmd.colorscheme('slate')
+
 -- 主键
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
