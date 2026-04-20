@@ -224,6 +224,13 @@ vim.api.nvim_create_autocmd("TextYankPost", {
     end,
 })
 
+-- plugin only treesitter
+vim.pack.add({ { src = "https://github.com/romus204/tree-sitter-manager.nvim" } })
+
+require("tree-sitter-manager").setup({
+    ensure_installed = { "lua" },
+})
+
 -- ui2
 
 local ui2 = require("vim._core.ui2")
