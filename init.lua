@@ -1,6 +1,6 @@
 vim.loader.enable()
 
-vim.cmd.colorscheme('slate')
+vim.cmd.colorscheme("habamax")
 
 -- 主键
 vim.g.mapleader = " "
